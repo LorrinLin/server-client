@@ -25,10 +25,7 @@ func process(conn net.Conn){
 		}
 		
 		fmt.Print("From client: " + string(buf[:n]))
-		
 	}
-	
-	
 }
 
 func main(){
